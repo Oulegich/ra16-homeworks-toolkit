@@ -1,9 +1,9 @@
 # Домашнее задание к занятию «Redux Toolkit»
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/5s3gdrt4iu55u7m6?svg=true)](https://ci.appveyor.com/project/Oulegich/ra16-homeworks-toolkit)
 
-
-[Ссылка на Github Pages]()
+[Ссылка на Github Pages](https://oulegich.github.io/ra16-homeworks-toolkit/)
 
 ### Задание: Поиск фильмов по каталогу IMDb и добавление найденных фильмов в "Избранное"
 
