@@ -1,0 +1,68 @@
+.film-full-card {
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: rgb(84, 1, 84);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    position: relative;
+
+    .btn-favourites-container {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        margin-top: 8px;
+
+        .btn-favourites {
+            background-color: transparent;
+            border: none;
+            font-size: 3.5rem;
+            color: yellow;
+            cursor: pointer;
+            transition: color 1s;
+
+            &:hover {
+                color: rgb(182, 182, 0);
+            }
+        }
+    }
+
+    .film-full-content {
+        display: flex;
+        align-items: end;
+    }
+
+    .film-poster {
+        width: 450px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    .full-text-content-film {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: 50px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 40px;
+        box-sizing: border-box;
+        border-radius: 20px;
+
+        .full-title-film {
+            font-size: 2.2rem;
+            color: white;
+            opacity: 0.8;
+        }
+
+        .full-year-film,
+        .full-genre-film,
+        .full-runtime-film,
+        .full-director-film,
+        .full-actors-film,
+        .full-ratings-film {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: white;
+            opacity: 0.8;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.menu {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    .tab {
+        padding: 10px 20px;
+        font-size: 1.4rem;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(98, 19, 98);
+        opacity: 0.9;
+        transition: 1s;
+
+        &:hover {
+            opacity: 1;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        &_active {
+            background-color: rgb(138, 27, 138);
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    }
+}
